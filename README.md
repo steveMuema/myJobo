@@ -19,7 +19,7 @@ One should install the following configurations to run the app in development
 
 ## Running the tests
 
-To run the test locally, one can run **node scripts/test/js**.
+To run the test locally, one can run **node scripts/test.js**.
 
 
 ## Deployment
