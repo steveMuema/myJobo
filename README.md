@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/steveMuema/myJobo/tree/master.svg?style=svg)](https://circleci.com/gh/steveMuema/myJobo/tree/master)
+
 # Project myJob App
 
 This is a modern React Demo Application that shows a list of users and allows the client to edit their fields. 
