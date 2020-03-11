@@ -1,0 +1,1 @@
+export { useFetchUsersList } from './fetchUsersList';
