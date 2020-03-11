@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/steveMuema/myJobo/tree/master.svg?style=svg)](https://circleci.com/gh/steveMuema/myJobo/tree/master)
+[![CircleCI](https://circleci.com/gh/steveMuema/myJobo/tree/master.svg?style=svg)](https://circleci.com/gh/steveMuema/myJobo/tree/master)    [![Build Status](https://travis-ci.org/steveMuema/myJobo.svg?branch=master)](https://travis-ci.org/steveMuema/myJobo)
 
 # Project myJob App
 
