@@ -28,13 +28,12 @@ The app is deployed on Heroku on can visit the demo at [Click Here](https://aque
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [ReactJS](https://reactjs.org/docs/getting-started.html) - The web framework used
+* [React-Redux](https://react-redux.js.org/introduction/quick-start) - State Management
+* [redux](https://redux.js.org/introduction/getting-started/) - Used to mutation of state.
+* [redux-thunk](https://github.com/reduxjs/redux-thunk) - Used for middleware for redux.
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
