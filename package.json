@@ -80,7 +80,7 @@
     "start": "cross-env PORT=3100 node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "postinstall": "react-scripts build"
+    "postinstall": "node scripts/build.j"
   },
   "browserslist": [
     ">0.2%",
