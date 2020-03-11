@@ -1,1 +1,1 @@
-web: node scripts/start.js
+web: serve -s build
