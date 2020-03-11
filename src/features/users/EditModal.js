@@ -34,6 +34,7 @@ export default function EditModal(props) {
 
  
   return (
+    <div className="users-edit-modal">
     <Modal 
       {...props}
       size='sm'
@@ -67,6 +68,7 @@ export default function EditModal(props) {
 
       </Modal.Footer>
     </Modal>
+    </div>
   );
 };
 

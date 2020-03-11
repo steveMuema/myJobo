@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { EditModal } from '../../../src/features/users/EditModal';
+import  EditModal  from '../../../src/features/users/EditModal';
 
 describe('users/EditModal', () => {
   it('renders node with correct class name', () => {

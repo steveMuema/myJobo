@@ -27,6 +27,7 @@ export default function UsersContainer() {
   }, [fetchUsersList] )
   
   return (
+    <div className="users-users-container">
     <Container fluid='lg' className='users-container'>
       <Container fluid className='nav'>
       <Nav className='nav'>
@@ -81,6 +82,7 @@ export default function UsersContainer() {
         <Typography variant='body1'> Fetching users...</Typography>
       )}
     </Container>
+    </div>
   );
 };
 

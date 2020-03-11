@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { UsersContainer } from '../../../src/features/users/UsersContainer';
+import  UsersContainer  from '../../../src/features/users/UsersContainer';
+// import {Provider} from 'react-redux';
 
 describe('users/UsersContainer', () => {
   it('renders node with correct class name', () => {
@@ -9,7 +10,9 @@ describe('users/UsersContainer', () => {
       actions: {},
     };
     const renderedComponent = shallow(
+      // <Provider store={mockStore()}>
       <UsersContainer {...props} />
+      // </Provider>
     );
 
     expect(
