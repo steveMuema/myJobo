@@ -31,7 +31,10 @@ export default function EditModal(props) {
 
     return user;
   }
-
+  function hideModal() {
+    setValue('');
+    props.onHide();
+  }
  
   return (
     <div className="users-edit-modal">
@@ -63,7 +66,7 @@ export default function EditModal(props) {
         </form>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={()=> hideModal()}>Close</Button>
         <Button onClick={()=> {editProfile(props.userid, data())}}>Update</Button>
 
       </Modal.Footer>
